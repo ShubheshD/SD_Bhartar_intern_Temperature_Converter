@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharat_Intern_Temperature_Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background: #000055">
+  <script src="script.js"></script>
+  <div>
+    <form id="temp_Calc" onsubmit="calcTemp(); return false" style="background: #aa5500">
+      <label for="in" class="label" style="font-size: 30px">Enter Temperature to Convert</label>
+      <br />
+      <input type="number" name="in" id="in" class="in_size">
+      <select name="conv_op" id="conv_op">
+        <option value="cel">Celcius</option>
+        <option value="fah">Fahrenheit</option>
+      </select>
+      <br />
+      <input type="submit" name="in">
+      <br />
+      <span id="result" style="color: #000000"></span>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000055;
+    display: grid;
+    place-items: center;
+  }
+  
+  form {
+    padding: 50px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #in {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .in_size {
+    font-size: 20px;
+    margin-top: 20px;
+    height: 40px;
+  }
+  
+  select {
+    margin-left: 20px;
+  }
+  
+  #conv_op {
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  input[type="submit"] {
+    cursor: pointer;
+    height: 40px;
+    margin: 20px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  #result {
+    font-size: 40px;
+  }
+  
+  .label {
+    font-size: 20px;
+    font-family: Arial;
+  }
+  
